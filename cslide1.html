@@ -1,0 +1,242 @@
+<html>
+<head>
+
+<style>
+	.main-box
+	{
+		height:400px; width:800px;margin-left:275px;position:absolute;z-index:-50;margin-top:50px;
+		background-color:lightyellow;
+	}
+	.ref1
+	{
+		height:150px; width:225px;
+		transition:-webkit-transform 0.4s ease-in-out;
+		transition:transform 0.4s ease-in-out;
+		position:absolute;border:0px solid black;
+	}
+	#id1, #id2, #id3, #id4, #id5, #id6, #id7, #id8
+	{position:absolute;}
+	.imgc1
+	{
+		height:150px;
+		width:225px; 
+		position:absolute;
+		border:3px dotted black;
+		border-bottom:2px dotted black;
+		-webkit-box-reflect: below -1
+				-webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.7, transparent), to(white));
+	}
+	#id8{-webkit-transform:scale(1) translate(280px, 200px);}
+	#id7{-webkit-transform:scale(0.9) translate(55px, 180px);}
+	#id6{-webkit-transform:scale(0.9) translate(568px, 180px);}
+	#id5{-webkit-transform:scale(0.8) translate(10px, 130px);}
+	#id4{-webkit-transform:scale(0.8) translate(690px, 130px);}
+	#id3{-webkit-transform:scale(0.7) translate(635px, 90px);}
+	#id2{-webkit-transform:scale(0.7) translate(165px, 90px);}
+	#id1{-webkit-transform:scale(0.7) translate(400px, 50px);}
+	.divx1
+	{
+		height:125px; width:225px; background-color:transparent;
+		position:absolute;text-align:center;
+	}
+	
+</style>
+<script>
+	function funx1()
+	{
+		document.getElementById("id1").style.webkitTransform="scale(0.7) translate(165px,90px)";
+		document.getElementById("id1").style.zIndex="0";
+		document.getElementById("id2").style.webkitTransform="scale(0.8) translate(10px,130px)";
+		document.getElementById("id2").style.zIndex="0";
+		document.getElementById("id3").style.webkitTransform="scale(0.7) translate(400px,50px)";
+		document.getElementById("id3").style.zIndex="0";
+		document.getElementById("id4").style.webkitTransform="scale(0.7) translate(635px,90px)";
+		document.getElementById("id4").style.zIndex="-5";
+		document.getElementById("id5").style.webkitTransform="scale(0.9) translate(55px,180px)";
+		document.getElementById("id5").style.zIndex="0";
+		document.getElementById("id6").style.webkitTransform="scale(0.8) translate(690px,130px)";
+		document.getElementById("id6").style.zIndex="-3";
+		document.getElementById("id7").style.webkitTransform="scale(1) translate(280px,200px)";
+		document.getElementById("id7").style.zIndex="0";
+		document.getElementById("id8").style.webkitTransform="scale(0.9) translate(568px,180px)";
+		document.getElementById("id8").style.zIndex="-1";
+	}
+	
+	function funx2()
+	{
+		document.getElementById("id1").style.webkitTransform="scale(0.8) translate(10px,130px)";
+		document.getElementById("id1").style.zIndex="0";
+		document.getElementById("id2").style.webkitTransform="scale(0.9) translate(55px,180px)";
+		document.getElementById("id2").style.zIndex="0";
+		document.getElementById("id3").style.webkitTransform="scale(0.7) translate(165px,90px)";
+		document.getElementById("id3").style.zIndex="-1";
+		document.getElementById("id4").style.webkitTransform="scale(0.7) translate(400px,50px)";
+		document.getElementById("id4").style.zIndex="0";
+		document.getElementById("id5").style.webkitTransform="scale(1) translate(280px,200px)";
+		document.getElementById("id5").style.zIndex="0";
+		document.getElementById("id6").style.webkitTransform="scale(0.7) translate(635px,90px)";
+		document.getElementById("id6").style.zIndex="-5";
+		document.getElementById("id7").style.webkitTransform="scale(0.9) translate(568px,180px)";
+		document.getElementById("id7").style.zIndex="-1";
+		document.getElementById("id8").style.webkitTransform="scale(0.8) translate(690px,130px)";
+		document.getElementById("id8").style.zIndex="-3";
+
+	}
+	
+	function funx3()
+	{
+		document.getElementById("id1").style.webkitTransform="scale(0.9) translate(55px,180px)";
+		document.getElementById("id1").style.zIndex="0";
+		document.getElementById("id2").style.webkitTransform="scale(1) translate(280px,200px)";
+		document.getElementById("id2").style.zIndex="0";
+		document.getElementById("id3").style.webkitTransform="scale(0.8) translate(10px,130px)";
+		document.getElementById("id3").style.zIndex="-1";
+		document.getElementById("id4").style.webkitTransform="scale(0.7) translate(165px,90px)";
+		document.getElementById("id4").style.zIndex="-3";
+		document.getElementById("id5").style.webkitTransform="scale(0.9) translate(568px,180px)";
+		document.getElementById("id5").style.zIndex="-1";
+		document.getElementById("id6").style.webkitTransform="scale(0.7) translate(400px,50px)";
+		document.getElementById("id6").style.zIndex="0";
+		document.getElementById("id7").style.webkitTransform="scale(0.8) translate(690px,130px)";
+		document.getElementById("id7").style.zIndex="-3";
+		document.getElementById("id8").style.webkitTransform="scale(0.7) translate(635px,90px)";
+		document.getElementById("id8").style.zIndex="-5";
+
+	}
+	function funx4()
+	{
+		document.getElementById("id1").style.webkitTransform="scale(1) translate(280px,200px)";
+		document.getElementById("id1").style.zIndex="0";
+		document.getElementById("id2").style.webkitTransform="scale(0.9) translate(568px,180px)";
+		document.getElementById("id2").style.zIndex="-1";
+		document.getElementById("id3").style.webkitTransform="scale(0.9) translate(55px,180px)";
+		document.getElementById("id3").style.zIndex="-1";
+		document.getElementById("id4").style.webkitTransform="scale(0.8) translate(10px,130px)";
+		document.getElementById("id4").style.zIndex="-3";
+		document.getElementById("id5").style.webkitTransform="scale(0.8) translate(690px,130px)";
+		document.getElementById("id5").style.zIndex="-3";
+		document.getElementById("id6").style.webkitTransform="scale(0.7) translate(165px,90px)";
+		document.getElementById("id6").style.zIndex="-5";
+		document.getElementById("id7").style.webkitTransform="scale(0.7) translate(635px,90px)";
+		document.getElementById("id7").style.zIndex="-5";
+		document.getElementById("id8").style.webkitTransform="scale(0.7) translate(400px,50px)";
+		document.getElementById("id8").style.zIndex="0";
+
+	}
+	function funx5()
+	{
+		document.getElementById("id1").style.webkitTransform="scale(0.9) translate(568px,180px)";
+		document.getElementById("id1").style.zIndex="-1";
+		document.getElementById("id2").style.webkitTransform="scale(0.8) translate(690px,130px)";
+		document.getElementById("id2").style.zIndex="-3";
+		document.getElementById("id3").style.webkitTransform="scale(1) translate(280px,200px)";
+		document.getElementById("id3").style.zIndex="0";
+		document.getElementById("id4").style.webkitTransform="scale(0.9) translate(55px,180px)";
+		document.getElementById("id4").style.zIndex="-1";
+		document.getElementById("id5").style.webkitTransform="scale(0.7) translate(635px,90px)";
+		document.getElementById("id5").style.zIndex="-5";
+		document.getElementById("id6").style.webkitTransform="scale(0.8) translate(10px,130px)";
+		document.getElementById("id6").style.zIndex="-3";
+		document.getElementById("id7").style.webkitTransform="scale(0.7) translate(400px,50px)";
+		document.getElementById("id7").style.zIndex="0";
+		document.getElementById("id8").style.webkitTransform="scale(0.7) translate(165px,90px)";
+		document.getElementById("id8").style.zIndex="-5";
+
+	}
+	function funx6()
+	{
+		document.getElementById("id1").style.webkitTransform="scale(0.8) translate(690px,130px)";
+		document.getElementById("id1").style.zIndex="0";
+		document.getElementById("id2").style.webkitTransform="scale(0.7) translate(635px,90px)";
+		document.getElementById("id2").style.zIndex="-1";
+		document.getElementById("id3").style.webkitTransform="scale(0.9) translate(568px,180px)";
+		document.getElementById("id3").style.zIndex="0";
+		document.getElementById("id4").style.webkitTransform="scale(1) translate(280px,200px)";
+		document.getElementById("id4").style.zIndex="0";
+		document.getElementById("id5").style.webkitTransform="scale(0.7) translate(400px,50px)";
+		document.getElementById("id5").style.zIndex="0";
+		document.getElementById("id6").style.webkitTransform="scale(0.9) translate(55px,180px)";
+		document.getElementById("id6").style.zIndex="-1";
+		document.getElementById("id7").style.webkitTransform="scale(0.7) translate(165px,90px)";
+		document.getElementById("id7").style.zIndex="-5";
+		document.getElementById("id8").style.webkitTransform="scale(0.8) translate(10px,130px)";
+		document.getElementById("id8").style.zIndex="-3";
+
+	}
+	
+	function funx7()
+	{
+		document.getElementById("id1").style.webkitTransform="scale(0.7) translate(635px,90px)";
+		document.getElementById("id1").style.zIndex="0";
+		document.getElementById("id2").style.webkitTransform="scale(0.7) translate(400px,50px)";
+		document.getElementById("id2").style.zIndex="0";
+		document.getElementById("id3").style.webkitTransform="scale(0.8) translate(690px,130px)";
+		document.getElementById("id3").style.zIndex="0";
+		document.getElementById("id4").style.webkitTransform="scale(0.9) translate(568px,180px)";
+		document.getElementById("id4").style.zIndex="0";
+		document.getElementById("id5").style.webkitTransform="scale(0.7) translate(165px,90px)";
+		document.getElementById("id5").style.zIndex="0";
+		document.getElementById("id6").style.webkitTransform="scale(1) translate(280px,200px)";
+		document.getElementById("id6").style.zIndex="0";
+		document.getElementById("id7").style.webkitTransform="scale(0.8) translate(10px,130px)";
+		document.getElementById("id7").style.zIndex="0";
+		document.getElementById("id8").style.webkitTransform="scale(0.9) translate(55px,180px)";
+		document.getElementById("id8").style.zIndex="0";
+
+	}
+	function funx8()
+	{
+		document.getElementById("id1").style.webkitTransform="scale(0.7) translate(400px,50px)";
+		document.getElementById("id1").style.zIndex="0";
+		document.getElementById("id2").style.webkitTransform="scale(0.7) translate(165px,90px)";
+		document.getElementById("id2").style.zIndex="0";
+		document.getElementById("id3").style.webkitTransform="scale(0.7) translate(635px,90px)";
+		document.getElementById("id3").style.zIndex="0";
+		document.getElementById("id4").style.webkitTransform="scale(0.8) translate(690px,130px)";
+		document.getElementById("id4").style.zIndex="0";
+		document.getElementById("id5").style.webkitTransform="scale(0.8) translate(10px,130px)";
+		document.getElementById("id5").style.zIndex="0";
+		document.getElementById("id6").style.webkitTransform="scale(0.9) translate(568px,180px)";
+		document.getElementById("id6").style.zIndex="0";
+		document.getElementById("id7").style.webkitTransform="scale(0.9) translate(55px,180px)";
+		document.getElementById("id7").style.zIndex="0";
+		document.getElementById("id8").style.webkitTransform="scale(1) translate(280px,200px)";
+		document.getElementById("id8").style.zIndex="0";
+
+	}
+	var n=1;
+	function rotate1()
+	{
+		var fun;
+		if(n<8)
+		{
+			fun="funx"+n+"()";
+			n=n+1;
+			setTimeout(fun,0);
+		}
+		else
+		{
+			fun="funx"+n+"()";
+			n=1;
+			setTimeout(fun,0);
+		}
+		setTimeout("rotate1()",6000);
+	}
+</script>
+</head>
+<body>
+<div class="main-box">
+	<div class="ref1" id="id1"><img id="im1" class="imgc1" src="ss1.jpg"><div class="divx1">ID1</div></div>
+	<div class="ref1" id="id2"><img id="im2" class="imgc1" src="ss2.jpg"><div class="divx1">id2</div></div>
+	<div class="ref1" id="id3"><img id="im3" class="imgc1" src="ss3.jpg"><div class="divx1">id3</div></div>
+	<div class="ref1" id="id4"><img id="im4" class="imgc1" src="ss4.jpg"><div class="divx1">id4</div></div>
+	<div class="ref1" id="id5"><img id="im5" class="imgc1" src="ss5.jpg"><div class="divx1">id5</div></div>
+	<div class="ref1" id="id6"><img id="im6" class="imgc1" src="ss6.jpg"><div class="divx1">id6</div></div>
+	<div class="ref1" id="id7"><img id="im7" class="imgc1" src="ss7.jpg"><div class="divx1">id7</div></div>
+	<div class="ref1" id="id8"><img id="im8" class="imgc1" src="ss8.jpg"><div class="divx1">id8</div></div>
+</div>
+
+
+<script>rotate1();</script>
+</body>
+</html>
